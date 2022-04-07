@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&family=Raleway:wght@300;400&family=Rubik+Glitch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Stardos+Stencil&display=swap');
+
+*{
+    box-sizing:border-box;
+}
+body{
+    background:url('portbg.png'); background-repeat:no-repeat; background-position:cover;
+    background-size:100% 400px;
+}
+header{
+    padding:10px; user-select:none;
+    .headlogo{
+        font-family:bahnschrift; font-size:28px; color:#fff; font-weight:bold;
+    }
+    .headnavtext{
+        float:right; font-size:15px; font-family:arial black; margin-right:28px;
+        word-spacing:90px; margin-top:5px; display:block;
+    }
+    .ntext{
+        word-spacing:2px;
+    }
+    .headnavtext>a{
+        color:#fff; text-decoration:none;
+    }
+    .headnavtext>a:hover{
+        color:#fff; text-decoration:underline;
+        width:fit-content; height:fit-content; border-bottom:1px solid #000;
+    }
+    .burger{
+        display:none;
+    }
+}
+.space{
+    margin-top:45px;
+    .frontspan{
+        padding:0px;
+    }
+    .frontwrite{
+        font-family:'Fredoka', bahnschrift; font-size:46px;
+        font-weight:bold; word-spacing:8px; letter-spacing:4px; padding:10px;
+    }
+    .frontwrite2{
+        font-family:'Raleway',calibri; font-size:29px; padding:10px;
+        width:60%; height:fit-content; background:transparent;
+    }
+    .itb{
+        padding:10px;
+    }
+    .itbutton{
+        background:transparent; font-family:calibri;
+        font-size:24px; padding:7px 50px; vertical-align:center; border:2px solid navy; outline:none; border-radius:15px;
+        border-collapse:collapse;
+    }
+    .itbutton:hover{
+        background:transparent; border:1px solid #000;
+        color:navy;
+    }
+}
+
+.space2{
+    margin-top:230px;
+
+    .space2place{
+        display:flex; justify-content:center; width:70%; height:fit-content;
+    }
+    .phoneui_resize{
+        width:150px; height:150px; border-radius:100px;
+        left:-10px; position:relative;
+    }
+    .space2text{
+        text-align:left; font-size:24px; margin-top:40px;
+        font-family:'Raleway', arial; font-weight:300;
+    }
+}
+
+.space3{
+    margin-top:90px;
+
+    .space3write{
+        font-family:'Stardos Stencil', calibri; font-size:29px;
+    }
+    .myshape{
+        background:transparent; padding:5px; border-left:2px solid blue;
+        border-top:2px solid blue; border-bottom:2px solid blue;
+    }
+}
+
+.serviceplace{
+    display:flex; justify-content:center;
+
+    .servicebox{
+        width:30%; height:fit-content; background:#fff; color:rgba(8, 8, 138, 0.808);
+        font-size:15px; font-family:'Raleway', calibri; border:1px solid blue; padding:5px;
+        text-align:left;
+    }
+}
+
+.giat{
+    background:blue; color:#fff; width:fit-content; height:fit-content;
+    padding:7px; border-radius:10px 10px 0px 10px; font-family:'Raleway', calibri;
+    font-size:20px;
+}
+
+.tms{
+    font-family:'arial black', arial black; font-size:35px; padding:9px;
+}
+.tms2{
+    font-family:'arial black', arial black; font-size:35px; padding:9px;
+    color:rgb(69, 69, 238);
+}
+
+footer{
+    width:auto; height:fit-content; margin-left:-8px; margin-right:-8px;
+    margin-bottom:-8px; color:#fff; background:rgb(81, 81, 161); padding:8px;
+
+    .dolapop{
+        font-family:'Raleway', calibri; font-size:19px;
+    }
+
+    .footflex{
+        display:flex;
+    }
+
+    .footflexwrite{
+        font-family:'Fredoka', calibri; font-size:19px;
+    }
+
+    .footflexwrite2{
+        font-family:'Fredoka', calibri; font-size:19px;
+        right:-120px; position:relative;
+    }
+}
+
+
+//menu overlay container designs
+#menu_overlay_container{
+    display:none;
+}
+
+
+/*for screen below 850px*/
+@media only screen and (max-width:850px){
+    body{
+        background:url('portbg.png'); background-repeat:no-repeat; background-position:cover;
+        background-size:100% 250px;
+    }
+    header{
+        padding:10px;
+        .headlogo{
+            font-family:bahnschrift; font-size:18px; color:#fff; font-weight:bold;
+        }
+        .headnavtext{
+            float:right; font-size:15px; font-family:arial black; margin-right:28px;
+            word-spacing:90px; margin-top:5px; display:none;
+        }
+        .ntext{
+            word-spacing:2px;
+        }
+        .headnavtext>a{
+            color:#fff; text-decoration:none;
+        }
+        .burger{
+            display:block; float:right; margin-right:10px;
+        }
+        .burger>a{
+            color:#fff; outline:none; text-decoration:none;
+        }
+    }
+
+    .space{
+        margin-top:15px;
+        .frontspan{
+            padding:0px;
+        }
+        .frontwrite{
+            font-family:'Fredoka', bahnschrift; font-size:18px;
+            font-weight:bold; word-spacing:0px; letter-spacing:0px; padding:10px;
+        }
+        .frontwrite2{
+            font-family:Raleway; font-size:13px; padding:10px;
+            width:60%; height:fit-content; background:transparent;
+        }
+        .itb{
+            padding:10px;
+        }
+        .itbutton{
+            background:transparent; font-family:calibri;
+            font-size:13px; padding:7px 30px; vertical-align:center; border:1px solid navy; outline:none; border-radius:15px;
+        }
+    }
+
+    .space2{
+        margin-top:90px; justify-content:center;
+    
+        .space2place{
+            display:flex; text-align:center; width:80%; height:fit-content;
+        }
+        .phoneui_resize{
+            width:70px; height:70px; border-radius:400px;
+            left:0px; position:relative;
+        }
+        .space2text{
+            text-align:left; font-size:12px; margin-top:15px;
+            font-family:'Raleway', arial; right:-8px; position:relative;
+        }
+    }
+
+    .space3{
+        margin-top:70px;
+    
+        .space3write{
+            font-family:'Stardos Stencil' calibri; font-size:16px;
+        }
+    }
+
+    .serviceplace{
+        display:block; justify-content:center;
+    
+        .servicebox{
+            width:90%; height:fit-content; background:#fff; color:rgba(8, 8, 138, 0.808);
+            font-size:14px; font-family:'Raleway', calibri; border:1px solid blue; padding:5px;
+            text-align:center;
+        }
+    }
+
+    .giat{
+        background:blue; color:#fff; width:fit-content; height:fit-content;
+        padding:7px; border-radius:10px 10px 0px 10px; font-family:'Raleway', calibri;
+        font-size:16px;
+    }
+
+    .tms{
+        font-family:'arial black', arial black; font-size:19px; padding:7px;
+    }
+    .tms2{
+        font-family:'arial black', arial black; font-size:15px; padding:9px;
+        color:rgb(69, 69, 238);
+    }
+
+
+    footer{
+        width:auto; height:fit-content; margin-left:-8px; margin-right:-8px;
+        margin-bottom:-8px; color:#fff; background:rgb(81, 81, 161); padding:8px;
+    
+        .dolapop{
+            font-family:'Raleway', calibri; font-size:14px;
+        }
+    
+        .footflex{
+            display:block;
+        }
+    
+        .footflexwrite{
+            font-family:'Fredoka', calibri; font-size:14px;
+        }
+    
+        .footflexwrite2{
+            font-family:'Fredoka', calibri; font-size:14px;
+            right:0px; position:relative; margin-top:10px;
+        }
+    }
+
+
+    //menu overlay container designs
+    #menu_overlay_container{
+        display:block; width:100%; height:fit-content; z-index:10;
+        background:#fff; color:navy; top:0; margin-right:-8px; margin-left:-8px;
+        position:fixed; animation:downsp 2s linear;
+
+        .times_me{
+            color:navy; font-family:arial black; font-size:24px; font-weight:bold;
+            text-decoration:none; float:right; overflow:hidden; margin-right:20px;
+        }
+
+        nav>a{
+            text-decoration:none; color:navy; font-family:'Fredoka';
+            padding:15px; line-height:35px; font-size:13px;
+        }
+    }
+
+    @keyframes downsp{
+        from{
+            height:0%; color:transparent;
+        }
+        50%{
+            height:40%; color:transparent;
+        }
+        to{
+            height:fit-content; color:navy;
+        }
+    }
+    //end mill menu overlay here
+    //end mill.scss/css here
+}
